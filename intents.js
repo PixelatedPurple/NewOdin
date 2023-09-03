@@ -7,5 +7,6 @@ module.exports = [
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.GuildMessageReactions,
     GatewayIntentBits.GuildMembers,
-    // GatewayIntentBits.GuildPresences,
+    GatewayIntentBits.GuildPresences,
+    GatewayIntentBits.MessageContent,
 ];
