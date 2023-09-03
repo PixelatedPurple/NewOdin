@@ -6,49 +6,54 @@
 #    - token: "ajkdfhakljh2352009adfha" can be set using the environment variable SPLITE_TOKEN=ajkdfhakljh2352009adfha
 #    - music.dj.commands: ["play", "skip", "stop"] can be set using the environment variable SPLITE_MUSIC_DJ_COMMANDS="play, skip, stop"
 
-botName: "Splite"
+botName: "Odin"
 
 # Message Content Intent is required for this to work.
-defaultPrefix: ".."
+defaultPrefix: "1"
 
 # Bot Token (https://discord.com/developers/applications)
 token: ""
 
 # Invite link to your support server
-supportServer: "https://discord.gg/8Uk2REYmd3"
+supportServer: "https://discord.gg/vdK8sTcxsR"
 
 # ID of the support Server. BOT MUST HAVE PERMISSION TO SEND MESSAGES IN THIS CHANNEL
-supportServerId: "812345678901234567"
+supportServerId: "1147121825504038973"
 
 # ID of the channel (in the support server) where bug reports will be sent
-bugReportChannelId: "812345678901234567"
+bugReportChannelId: "1147121825504038973"
 
 # ID of the channel (in the support server) where feedback will be sent
-feedbackChannelId: "812345678901234567"
+feedbackChannelId: "1147121825504038973"
 
 # ID of the channel (in the support server) where confession reports will be sent
-confessionReportsID: "812345678901234567"
+confessionReportsID: "1147121825504038973"
 
 # Image link to your bot's icon
-botLogoURL: "https://i.imgur.com/B0XSinY.png"
+botLogoURL: "https://cdn.discordapp.com/attachments/961001496437211146/964642842188329051/1649495384215.png"
 
 # List of command names that will be disabled. Each command can also be disabled individually by setting its "disabled" property to true in its command file
 disabledCommands:
-    - "command1"
-    - "command2"
+    - "approved"
+    - "awooify"
+    - "baguette"
+    - "beautiful"
+    - ""
+    - ""
+    
 # List of owners of the bot, they will be able to use owner commands
 owners:
-    - '123456789012346578'
+    - '739926876834889789'
 # List of managers of the bot, they will be able to use manager commands
 managers:
-    - '123456789012346578'
-    - '123456789012346578'
+    - '739926876834889789'
+    - '739926876834889789'
 # Webserver settings, mainly used for top.gg webhooks, can also be used for dashboard (not implemented by default)
 webserver:
-    enabled: false  # If true, will enable the webserver
+    enabled: true  # If true, will enable the webserver
     port: 17170     # Port of the webserver
     debug: true     # If true, will log all requests to the console
-    https: false    # If true, will use https, if false, will use http
+    https: true    # If true, will use https, if false, will use http
 
 # Stats settings
 stats:
@@ -71,12 +76,12 @@ votePerks:
 
 # API keys
 apiKeys:
-    catApi: ""          # Cat API (Visit https://thecatapi.com/signup/) used for cat command
-    googleApi: ""       # Youtube API (https://console.cloud.google.com/apis/library/youtube.googleapis.com) used for youtube command
-    amethyste: ""       # Amethyste API (Visit https://api.amethyste.moe/) used for many commands in the "fun" category
+    catApi: "live_tn9NIsfiL3MFEpxVxnNftSEls2t2cUBHJ1nJ0LxAHoytcQHv5TUrNS8C4UB9RWtg"          # Cat API (Visit https://thecatapi.com/signup/) used for cat command
+    googleApi: "AIzaSyCQOqAA0yggAs6z-GKLLkgKPVGtZwY1sLI"       # Youtube API (https://console.cloud.google.com/apis/library/youtube.googleapis.com) used for youtube command
+    amethyste: "cef59906f97b8a29f3cb696c3c573ba3189fb4b347f374b67a380a85f454720e28c18bd0077011bd2314ec4e989b4c2da1fa375861c6da3505d63a38e908671e"       # Amethyste API (Visit https://api.amethyste.moe/) used for many commands in the "fun" category
     imgflip:            # Imgflip API (Visit https://imgflip.com/) used for hate and mock commands
-        username: ""
-        password: ""
+        username: "TheExcluded"
+        password: "w@AUJU$qUwg4EMa"
 
     # Top.gg API (Visit https://top.gg/bot/:bot_id/webhooks) used for top.gg webhooks
     topGG:
@@ -89,12 +94,12 @@ apiKeys:
         webhook_mode:
             authorization: "" # Retrieve from https://top.gg/bot/:bot_id/webhooks
     openAI:
-        apiKey: "" # OpenAI API (Visit https://beta.openai.com/account/api-keys) used for the ai command
+        apiKey: "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" # OpenAI API (Visit https://beta.openai.com/account/api-keys) used for the ai command
 
 # Music settings (https://discord-player.js.org/)
 music:
     DJ:
-        enabled: true   # If true, will require DJ role to use music commands
+        enabled: false   # If true, will require DJ role to use music commands
         roleName: DJ    # Name of the DJ role
         commands:       # List of commands that require DJ role
             - back
