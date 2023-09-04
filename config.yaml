@@ -76,12 +76,12 @@ votePerks:
 
 # API keys
 apiKeys:
-    catApi: "live_tn9NIsfiL3MFEpxVxnNftSEls2t2cUBHJ1nJ0LxAHoytcQHv5TUrNS8C4UB9RWtg"          # Cat API (Visit https://thecatapi.com/signup/) used for cat command
-    googleApi: "AIzaSyCQOqAA0yggAs6z-GKLLkgKPVGtZwY1sLI"       # Youtube API (https://console.cloud.google.com/apis/library/youtube.googleapis.com) used for youtube command
-    amethyste: "cef59906f97b8a29f3cb696c3c573ba3189fb4b347f374b67a380a85f454720e28c18bd0077011bd2314ec4e989b4c2da1fa375861c6da3505d63a38e908671e"       # Amethyste API (Visit https://api.amethyste.moe/) used for many commands in the "fun" category
+    catApi: ""          # Cat API (Visit https://thecatapi.com/signup/) used for cat command
+    googleApi: ""       # Youtube API (https://console.cloud.google.com/apis/library/youtube.googleapis.com) used for youtube command
+    amethyste: ""       # Amethyste API (Visit https://api.amethyste.moe/) used for many commands in the "fun" category
     imgflip:            # Imgflip API (Visit https://imgflip.com/) used for hate and mock commands
-        username: "TheExcluded"
-        password: "w@AUJU$qUwg4EMa"
+        username: ""
+        password: ""
 
     # Top.gg API (Visit https://top.gg/bot/:bot_id/webhooks) used for top.gg webhooks
     topGG:
@@ -94,7 +94,7 @@ apiKeys:
         webhook_mode:
             authorization: "" # Retrieve from https://top.gg/bot/:bot_id/webhooks
     openAI:
-        apiKey: "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" # OpenAI API (Visit https://beta.openai.com/account/api-keys) used for the ai command
+        apiKey: "" # OpenAI API (Visit https://beta.openai.com/account/api-keys) used for the ai command
 
 # Music settings (https://discord-player.js.org/)
 music:
